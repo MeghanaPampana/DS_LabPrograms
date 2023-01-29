@@ -31,3 +31,9 @@ void main()
 	else
 		printf("Element is present at %d position\n", idx + 1);
 }
+/*
+Enter size of array: 5
+Enter 5 sorted elements: 10 20 30 40 50
+Enter key to find: 40
+Element is present at 4 position
+*/
