@@ -27,7 +27,7 @@ void dis(){
 	}
 	printf("Queue:\n");
 	for(i = f + 1 ; i <= r; i++)
-		printf("\t%d", q[i]);
+		printf("%d\t", q[i]);
 	printf("\n");
 }
 
@@ -53,3 +53,49 @@ void main(){
 		}
 	}
 }
+/*
+Enter size of queue: 5
+-----
+1.Enqueue
+2.Dequeue
+3.Display
+-----
+Enter choice: 1
+Enter element to enqueue: 45
+-----
+1.Enqueue
+2.Dequeue
+3.Display
+-----
+Enter choice: 1
+Enter element to enqueue: 55
+-----
+1.Enqueue
+2.Dequeue
+3.Display
+-----
+Enter choice: 3
+Queue:
+45      55
+-----
+1.Enqueue
+2.Dequeue
+3.Display
+-----
+Enter choice: 2
+-----
+1.Enqueue
+2.Dequeue
+3.Display
+-----
+Enter choice: 3
+Queue:
+55
+-----
+1.Enqueue
+2.Dequeue
+3.Display
+-----
+Enter choice: 0
+Exited program
+*/
