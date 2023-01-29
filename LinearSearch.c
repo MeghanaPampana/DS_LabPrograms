@@ -25,3 +25,9 @@ void main()
 	else
 		printf("Element present at %d position\n", idx + 1);
 }
+/* 
+Enter size of array: 5
+Enter 5 elements: 1 4 2 5 6
+Enter key to find: 2
+Element present at 3 position
+*/
