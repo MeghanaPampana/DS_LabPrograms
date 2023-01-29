@@ -69,3 +69,50 @@ void main()
 		}
 	}
 }
+/*
+Enter size of stack: 5
+--------------
+1.Push  
+2.Pop  
+3.Display
+--------------
+Enter choice: 1
+Enter number to push: 84
+--------------
+1.Push  
+2.Pop  
+3.Display
+--------------
+Enter choice: 1
+Enter number to push: 54
+--------------
+1.Push  
+2.Pop  
+3.Display
+--------------
+Enter choice: 3
+Stack: 
+        54
+        84
+--------------
+1.Push  
+2.Pop  
+3.Display
+--------------
+Enter choice: 2
+--------------
+1.Push  
+2.Pop  
+3.Display
+--------------
+Enter choice: 3
+Stack: 
+        84
+--------------
+1.Push  
+2.Pop  
+3.Display
+--------------
+Enter choice: 0
+Exited program
+*/
