@@ -24,7 +24,13 @@ void main()
 	scanf("%d", &k);
 	idx = linear(arr, n, k, 0);
 	if(idx == -1)
-			printf("Element %d not present\n", k);
+		printf("Element %d not present\n", k);
 	else
 		printf("Element present at %d position\n", idx + 1);
 }
+/*
+Enter size of array: 5
+Enter 5 elements: 8 7 9 4 0
+Enter key to find: 4
+Element present at 4 position
+*/
