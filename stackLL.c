@@ -52,3 +52,25 @@ void main() {
 	pop();
 	pop();
 }
+/*
+Output
+[Push 50]
+Stack:
+	50
+[Push 60]
+Stack:
+	60
+	50
+[Push 70]
+Stack:
+	70
+	60
+	50
+[Pop]
+Stack:
+	60
+	50
+[Pop]
+Stack:
+	50
+*/
