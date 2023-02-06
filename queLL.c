@@ -59,3 +59,18 @@ void main() {
 	deq();
 	deq();
 }
+/*
+Output
+[Enqueue: 10]
+	List: 10 
+[Enqueue: 20]
+	List: 10 20 
+[Enqueue: 30]
+	List: 10 20 30 
+[Dequeue]
+	List: 20 30 
+[Dequeue]
+	List: 30 
+[Dequeue]
+Empty list
+*/
