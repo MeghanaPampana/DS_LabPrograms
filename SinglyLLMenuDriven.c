@@ -148,3 +148,164 @@ void main() {
 		}
 	}
 }
+/*
+Output
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 1
+Empty list
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 2
+Enter elem to insert: 50
+[Insert beginning: 50]
+	List: 50 
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 1
+	List: 50 
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 2
+Enter elem to insert: 40
+[Insert beginning: 40]
+	List: 40 50 
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 3
+Enter elem to insert: 60
+[Insert end: 60]
+	List: 40 50 60 
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 3
+Enter elem to insert: 80
+[Insert end: 80]
+	List: 40 50 60 80 
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 4
+Enter elem to insert and pos: 70 4
+[Insert at pos 4: 70]
+	List: 40 50 60 70 80 
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 5
+[Delete beginning]
+	List: 50 60 70 80 
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 6
+[Delete end]
+	List: 50 60 70 
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 7
+Enter pos of elem to delete: 2
+[Delete at pos 2]
+	List: 50 70 
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 5
+[Delete beginning]
+	List: 70 
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 5
+[Delete beginning]
+Empty list
+
+1.Display
+2.Ins B
+3.Ins E
+4.Ins P
+5.Del B
+6.Del E
+7.Del P
+
+Select: 0
+*/
