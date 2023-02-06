@@ -122,3 +122,28 @@ void main() {
 	delP(3);
 	delP(2);
 }
+/*
+Output
+[Insert beginning: 15]
+	List: 15 
+[Insert beginning: 14]
+	List: 14 15 
+[Insert end: 20]
+	List: 14 15 20 
+[Insert at pos 3: 17]
+	List: 14 15 17 20 
+[Insert at pos 4: 18]
+	List: 14 15 17 18 20 
+[Insert at pos 5: 19]
+	List: 14 15 17 18 19 20 
+[Insert at pos 3: 16]
+	List: 14 15 16 17 18 19 20 
+[Delete beginning]
+	List: 15 16 17 18 19 20 
+[Delete end]
+	List: 15 16 17 18 19 
+[Delete at pos 3]
+	List: 15 16 18 19 
+[Delete at pos 2]
+	List: 15 18 19 
+*/
